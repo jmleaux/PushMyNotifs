@@ -54,14 +54,62 @@
 		CAB6BFA71EEC5580003BA982 /* PushMyNotifs */ = {
 			isa = PBXGroup;
 			children = (
-				CAB6BFA81EEC5580003BA982 /* AppDelegate.swift */,
-				CAB6BFAA1EEC5581003BA982 /* ViewController.swift */,
-				CAB6BFAC1EEC5581003BA982 /* Main.storyboard */,
-				CAB6BFAF1EEC5581003BA982 /* Assets.xcassets */,
-				CAB6BFB11EEC5581003BA982 /* LaunchScreen.storyboard */,
-				CAB6BFB41EEC5581003BA982 /* Info.plist */,
+				CAB6BFBF1EEC55E2003BA982 /* Model */,
+				CAB6BFBE1EEC55DD003BA982 /* View */,
+				CAB6BFBD1EEC55D0003BA982 /* Controller */,
+				CAB6BFBC1EEC55C8003BA982 /* Resources */,
+				CAB6BFBB1EEC55C2003BA982 /* Protocols */,
+				CAB6BFBA1EEC55B8003BA982 /* Delegates */,
 			);
 			path = PushMyNotifs;
+			sourceTree = "<group>";
+		};
+		CAB6BFBA1EEC55B8003BA982 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				CAB6BFA81EEC5580003BA982 /* AppDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		CAB6BFBB1EEC55C2003BA982 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		CAB6BFBC1EEC55C8003BA982 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAB6BFAF1EEC5581003BA982 /* Assets.xcassets */,
+				CAB6BFB41EEC5581003BA982 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CAB6BFBD1EEC55D0003BA982 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAB6BFAA1EEC5581003BA982 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CAB6BFBE1EEC55DD003BA982 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAB6BFAC1EEC5581003BA982 /* Main.storyboard */,
+				CAB6BFB11EEC5581003BA982 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CAB6BFBF1EEC55E2003BA982 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
